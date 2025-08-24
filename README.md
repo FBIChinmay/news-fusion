@@ -2,6 +2,22 @@
 
 A modern web application that displays news from different APIs based on various domains including Technology, Business, and more.
 
+## 🌟 Live Demo
+
+**📱 Frontend**: [https://news-fusion-client.vercel.app](https://news-fusion-client.vercel.app)  
+**🔗 Backend API**: [https://news-fusion-chinmaym.vercel.app](https://news-fusion-chinmaym.vercel.app)
+
+> Try the live app! Browse news by domain and explore different sources in real-time.
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwindcss)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)
+
+---
+
 ## Features
 
 - **Domain-based News Filtering**: Browse news by different domains (Technology, Business)
@@ -146,6 +162,15 @@ The server provides the following endpoints:
    - For client, React will automatically suggest an alternative port
 
 ## 🚀 Deployment
+
+### ✅ Live Deployment (Vercel)
+
+This application is currently deployed and running:
+
+- **Frontend**: [https://news-fusion-client.vercel.app](https://news-fusion-client.vercel.app)
+- **Backend**: [https://news-fusion-chinmaym.vercel.app](https://news-fusion-chinmaym.vercel.app)
+
+### Manual Deployment Options
 
 ### Quick Deploy with Docker
 
