@@ -1,17 +1,15 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/app.js"
     }
-  ],
-  "env": {
-    "NEWS_API_KEY": "@news_api_key"
-  },
-  "functions": {
-    "app.js": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
