@@ -1,0 +1,15 @@
+{
+  "name": "news-fusion",
+  "version": "1.0.0",
+  "description": "A modern web application that displays news from different APIs based on various domains including Technology, Business, and more.",
+  "main": "test-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}

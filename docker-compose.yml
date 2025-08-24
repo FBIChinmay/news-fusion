@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # News Fusion Server
+  server:
+    build: ./server
+    ports:
+      - "3002:3002"
+    environment:
+      - NEWS_API_KEY=${NEWS_API_KEY}
+      - PORT=3002
+    restart: unless-stopped
+    networks:
+      - news-fusion-network
+
+  # News Fusion Client
+  client:
+    build: ./client
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+    restart: unless-stopped
+    networks:
+      - news-fusion-network
+
+networks:
+  news-fusion-network:
+    driver: bridge
+
+# For production, add volume for persistence
+volumes:
+  news_data:
+    driver: local
