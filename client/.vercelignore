@@ -24,7 +24,5 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Source files (for production build)
-src/
-public/
-*.config.js
+# Only exclude development build artifacts, not source files
+# Don't exclude src/, public/, or config files needed for build
